@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <p>Footer</p>
-    </div>
+    <footer>
+        <p>Monte Seu Burguer &copy; 2023</p>
+    </footer>
 </template>
 
 <script>
@@ -10,6 +10,17 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+    footer{
+        background-color: #222;
+        border-top: 4px solid #111;
+        color: #fcba03;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        min-height: 50px;
+
+    }
 
 </style>

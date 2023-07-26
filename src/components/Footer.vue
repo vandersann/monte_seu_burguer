@@ -19,8 +19,7 @@ export default {
         align-items: center;
         justify-content: center;
         width: 100%;
-        min-height: 50px;
-
+        height: 100px;
     }
 
 </style>

@@ -32,8 +32,15 @@ export default {
     }
 
   main {
-    margin: 50px;
-    min-height: 350px;
+    margin-top: 20px;
+    min-height: 100%;
+    display: block;
+    min-height: 100vh;
+    min-height: -webkit-calc(100vh - 100px);
+    min-height: -moz-calc(100vh - 100px);
+    min-height: calc(100vh - 100px);
+    position: relative;
+    width: 100%;
   }
 
   h1 {

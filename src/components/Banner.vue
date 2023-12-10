@@ -1,6 +1,6 @@
 <template>
     <div id="main-banner">
-        <h1>Monte Seu Burguer</h1>
+        <h1></h1>
     </div>
 </template>
 <script>
@@ -10,8 +10,8 @@ export default {
 </script>
 <style scoped>
     #main-banner {
-        background-image: url('/public/img/burger.jpg');
-        background-position: 0 -320px;
+        background-image: url('../assets/burguer.jpg');
+
         background-size: cover;
         height: 350px;
         display: flex;
@@ -23,7 +23,6 @@ export default {
         color: #fff;
         text-align: center;
         font-size: 60px;
-        background-color: #222;
         padding: 20px 40px;
     }
 

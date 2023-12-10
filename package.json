@@ -2,12 +2,15 @@
   "name": "monte_seu_burguer",
   "version": "0.1.0",
   "private": true,
+  "main": "main.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "backend": "json-server --watch db/db.json"
+    "backend": "json-server --watch db/db.json",
+    "postinstall": "npm prune"
   },
   "dependencies": {
+    "boxicons": "^2.1.4",
     "core-js": "^3.8.3",
     "json-server": "^0.17.3",
     "vue": "^3.2.13",
@@ -17,5 +20,9 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-service": "~5.0.0"
+  },
+  "author": {
+    "name": "Vander Sandino",
+    "email": "vandersann@gmail.com"
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <Banner />
   <main>
-    <h1>Monte o seu burguer:</h1>
+    <h1>Monte o seu burguer</h1>
     <BurguerForm />
   </main>
 </template>
@@ -18,3 +18,9 @@ export default {
   }
 }
 </script>
+
+<style>
+  main h1{
+    padding: 1rem;
+  }
+</style>

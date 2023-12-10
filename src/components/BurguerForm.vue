@@ -112,32 +112,38 @@ export default {
 </script>
 <style scoped>
     #burguer-form {
-        width: 400px;
+        width: 420px;
         margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #fcba03;
     }
 
     .input-container {
         display: flex;
         flex-direction: column;
-        margin-bottom: 20px;
+        margin-bottom: 1.5rem;
     }
 
     label {
         font-weight: bold;
-        margin-bottom: 15px;
+        font-size: 1.2rem;
+        margin-bottom: .5rem;
         color: #222;
-        padding: 5px 10px;
-        border-left: 4px solid #fcba03;
+        padding: 5px 5px;
     }
 
     input, select {
-        padding: 5px 10px;
+        padding: 1px 10px;
         width: 300px;
     }
 
     #opcionais-container {
         flex-direction: row;
         flex-wrap:wrap;
+        margin-left: 3.8rem;
     }
 
     #opcionais-title {

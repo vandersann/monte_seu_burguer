@@ -24,12 +24,19 @@ export default {
 </script>
 
 <style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
   * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     }
+
+  html{
+    font-size: 63,5%;
+  }
 
   main {
     margin-top: 20px;
@@ -41,6 +48,8 @@ export default {
     min-height: calc(100vh - 100px);
     position: relative;
     width: 100%;
+    scroll-behavior: smooth;
+    background-color: #FECE00;
   }
 
   h1 {

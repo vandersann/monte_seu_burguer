@@ -4,15 +4,15 @@
 
         <ul>
             <li>
-                <a href="#"><i class='bx bxl-linkedin-square' target='_blank' style='color:#f5f4f4' ></i></a>
-                <a href="#"><i class='bx bxl-whatsapp' target='_blank' style='color:#f5f4f4' ></i></a>
-                <a href="https://api.whatsapp.com/send?phone=5581996430492&text=Ol%C3%A1,%20acessei%20link%20pelo%20seu%20portif%C3%B3lio." target='_blank'><i class='bx bxl-instagram-alt' style='color:#f5f4f4' ></i></a>
-                <a href="#"><i class='bx bxl-github' target='_blank' style='color:#f5f4f4' ></i></a>
+                <a href="https://www.linkedin.com/in/vandersandinoo/" target='_blank' ><i class='bx bxl-linkedin-square' style='color:#f5f4f4' ></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5581996430492&text=Ol%C3%A1,%20acessei%20link%20pelo%20seu%20portif%C3%B3lio."><i class='bx bxl-whatsapp' target='_blank' style='color:#f5f4f4' ></i></a>
+                <a href="https://www.instagram.com/vander_sandino/" target='_blank'><i class='bx bxl-instagram-alt' style='color:#f5f4f4' ></i></a>
+                <a href="https://github.com/vandersann" target='_blank'><i class='bx bxl-github'  style='color:#f5f4f4' ></i></a>
             </li>
         </ul>
 
 
-        <p> &copy; 2023 - Todos os Direitos Reservados. <i class='bx bxl-github' target='_blank' style='color:#f5f4f4' ></i></p>
+        <p> &copy; 2023 - Todos os Direitos Reservados.</p>
 
     </footer>
 </template>

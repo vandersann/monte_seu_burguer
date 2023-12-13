@@ -118,7 +118,7 @@ import Message from './Message'
 </script>
 
 <style scoped>
-   #burger-table {
+    #burger-table {
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -133,13 +133,13 @@ import Message from './Message'
   #burger-table-heading {
     font-weight: bold;
     padding: 12px;
-    border-bottom: 3px solid #333;
+    border-bottom: 3px solid #000;
   }
 
   .burger-table-row {
     width: 100%;
     padding: 12px;
-    border-bottom: 1px solid #CCC;
+    border-bottom: .5px solid #000;
   }
 
   #burger-table-heading div,
@@ -159,7 +159,7 @@ import Message from './Message'
 
   .delete-btn {
     background-color: #222;
-    color:#fcba03;
+    color:#fff;
     font-weight: bold;
     border: 2px solid #222;
     padding: 10px;

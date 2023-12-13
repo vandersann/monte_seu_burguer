@@ -43,9 +43,9 @@ export default {
     min-height: 100%;
     display: block;
     min-height: 100vh;
-    min-height: -webkit-calc(100vh - 100px);
-    min-height: -moz-calc(100vh - 100px);
-    min-height: calc(100vh - 100px);
+    min-height: -webkit-calc(100vh - 200px);
+    min-height: -moz-calc(100vh - 200px);
+    min-height: 100vh;
     position: relative;
     width: 100%;
     scroll-behavior: smooth;

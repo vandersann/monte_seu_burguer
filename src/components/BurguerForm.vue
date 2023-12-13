@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="input-container">
-                    <input class="submit-btn" type="submit" value="Criar meu burguer!">
+                    <input class="submit-btn" type="submit" value="Criar meu burguer">
                 </div>
             </form>
         </div>
@@ -168,20 +168,23 @@ export default {
     }
 
     .submit-btn {
-        background-color: #222;
-        color: #fcba03;
+        background-color: transparent;
+        color: #000;
+        width: 200px;
+        text-transform: uppercase;
         font-weight: bold;
         border: 2px solid;
-        padding: 10px;
-        font-size: 16px;
+        border-radius: 10px;
+        padding: .6rem;
+        font-size: 1rem;
         margin: 0;
         cursor: pointer;
-        transition: .5s;
+        transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
     }
 
     .submit-btn:hover {
-        background-color: transparent;
-        color: #222;
+        box-shadow: 0 0 40px 40px black inset;
+        color: #fff;
     }
 
 </style>

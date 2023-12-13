@@ -21,6 +21,7 @@ export default {
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        font-size: 1.2rem;
     }
 
     #logo-url {
